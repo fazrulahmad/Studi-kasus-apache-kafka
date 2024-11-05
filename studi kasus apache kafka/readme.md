@@ -18,3 +18,9 @@ Pada studi kasus ini, kami menjalankan server zookeeper dan kafka melalui WSL, b
 Urutan untuk menjalankannya adalah producer terlebih dahulu.
 - Pindah ke direktori **studi kasus apache kafka**, lalu masukkan command `python producer.py`, di sini kita dapat melihat data suhu yang dikirim ke topik sensor-suhu
 - Buka terminal baru untuk menjalankan consumer, pindah ke direktori **studi kasus apache kafka**, lalu masukkan command `spark-submit consumer.py` untuk menjalankan consumer dan memfilter data suhu yang di atas 80.
+
+### Producer
+![foto1](https://github.com/user-attachments/assets/a147a45e-34a0-4a7f-89e7-1c798b39250a)
+
+### Consumer
+![foto2](https://github.com/user-attachments/assets/8715b7eb-d5fd-495f-8400-617df1e6ea13)
